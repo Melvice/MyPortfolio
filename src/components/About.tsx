@@ -42,7 +42,7 @@ export default function About() {
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I'm Melvice, a recent Software Engineering graduate from
+              Hi! I'm Melvice, a recent Software Engineering graduate from
               Polytechnique Montréal, passionate about building real-world
               applications that solve meaningful problems. My journey spans
               full-stack web development, mobile applications, and embedded
