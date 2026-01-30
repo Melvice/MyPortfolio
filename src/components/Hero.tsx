@@ -80,7 +80,7 @@ export default function Hero() {
             <button
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "../assets/cv.pdf";
+                link.href = "/public/cv.pdf";
                 link.download = "Melvice_Guimfack_CV.pdf";
                 link.click();
               }}
