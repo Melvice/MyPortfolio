@@ -1,57 +1,59 @@
-import { Code, Server, Wrench } from 'lucide-react';
+import { Code, Server, Wrench } from "lucide-react";
 
 export default function Skills() {
   const skillCategories = [
     {
       icon: Code,
-      title: 'Frontend Development',
+      title: "Frontend Development",
       skills: [
-        'React',
-        'Angular',
-        'TypeScript',
-        'JavaScript',
-        'HTML5',
-        'CSS3',
-        'Redux',
-        'jQuery',
+        "React",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Redux",
+        "jQuery",
       ],
     },
     {
       icon: Server,
-      title: 'Backend Development',
+      title: "Backend Development",
       skills: [
-        'Python',
-        'Ruby on Rails',
-        'Java',
-        'C/C++',
-        'Node.js',
-        'NestJs',
-        'PostgreSQL',
-        'MongoDB',
-        'MySQL',
-        'REST APIs',
-        'AWS',
+        "Python",
+        "Ruby on Rails",
+        "Java",
+        "C/C++",
+        "Node.js",
+        "NestJs",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "REST APIs",
+        "AWS",
       ],
     },
     {
       icon: Wrench,
-      title: 'Tools & Technologies',
+      title: "Tools & Technologies",
       skills: [
-        'Git',
-        'GitHub',
-        'GitLab',
-        'VSCode',
-        'Jira',
-        'Datadog',
-        'Socket.IO',
-        'Jest',
-        'Figma',
+        "Git",
+        "GitHub",
+        "GitLab",
+        "VSCode",
+        "Jira",
+        "Datadog",
+        "Socket.IO",
+        "Figma",
       ],
     },
   ];
 
   return (
-    <section id="skills" className="py-20 px-6 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
+    <section
+      id="skills"
+      className="py-20 px-6 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900"
+    >
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
