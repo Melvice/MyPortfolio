@@ -35,7 +35,7 @@ export default function Hero() {
 
           {/* Value Proposition */}
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Software Engineering student at Polytechnique Montreal passionate
+            Software Engineering graduate at Polytechnique Montreal passionate
             about crafting real-world solutions with clean code, strong
             performance, and exceptional user experiences.
           </p>
